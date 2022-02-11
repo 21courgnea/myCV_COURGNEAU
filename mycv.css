@@ -1,0 +1,125 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+      "sidebar top top"
+      "sidebar main photo";
+    border: 10px solid rgb(2, 2, 2);
+    border-radius: 8px;
+  }
+  
+  .moi {
+      grid-area: sidebar;
+      background: linear-gradient(green, white);
+      border: 3px solid rgb(75, 42, 42);
+      border-radius: 8px;
+  }
+
+  .stage {
+    grid-area: top;
+    background: linear-gradient(green, white);
+    border: 3px solid rgb(75, 42, 42);
+    border-radius: 8px;
+}
+
+  .corps {
+    grid-area: main;
+    border-bottom: 3px solid rgb(75, 42, 42);
+  }
+
+  .photos {
+    grid-area: photo;
+    border-bottom: 3px solid rgb(75, 42, 42);
+  }
+
+img#photo {
+    border: 10px solid rgb(75, 42, 42);
+    border-radius: 8px;
+}
+
+.titre_sidebar {
+    font-family: times;
+    font-size: large;
+    font-style: bold;
+    text-decoration: underline;    
+}
+
+h1#titre {
+    font-family: times;
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: bold;
+    padding: 12px; 
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient(green, white);
+  }
+
+p#pres_stage {
+  font-family: times;
+  font-size: large;
+  font-style: bold;
+  font-weight: bold;
+}
+
+p#disponibilité {
+  font-family: times;
+  font-size: medium;
+  font-style: italic;
+}
+
+span#disponibilité_2 {
+  font-family: times;
+  font-size: medium;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: times;
+  font-size: large;
+  font-style: bold;
+  padding: 12px; 
+  border: 3px solid rgb(23, 114, 38);
+  border-radius: 8px;
+  width: 20%;
+  margin: auto;
+  background: linear-gradient(green, white);
+}
+
+.imp {
+  font-family: times;
+  font-size: large;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.imp2 {
+  font-family: times;
+  font-size: medium;
+  font-style: bold;
+}
+
+.imp3 {
+  font-family: times;
+  font-size: medium;
+  font-style: italic;
+}
+
+img#mine {
+    border: 10px solid rgb(75, 42, 42);
+    border-radius: 8px;
+}
+
+img#cm {
+  border: 10px solid rgb(75, 42, 42);
+  border-radius: 8px;
+}
+
+img#code {
+  border: 10px solid rgb(75, 42, 42);
+  border-radius: 8px;
+}
